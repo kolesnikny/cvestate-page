@@ -50,7 +50,7 @@
 /* Link */
 
 .menu__link{
-    color: var(--special-dark);
+    color: var(--basic-white);
     text-decoration: none;
     font-family: 'Rubik', monospace;
     margin: 0px;
@@ -58,7 +58,7 @@
     
 }
 .menu__link--current{
-    color: var(--basic-black);
+    color: var(--basic-white);
     text-decoration: none;
     font-weight: bold;
 }
@@ -209,6 +209,7 @@
 @media (min-width: 750px) and (max-width: 1200px){
     .header__menu {   
         grid-column: span 2;
+        
     }
 }
 
