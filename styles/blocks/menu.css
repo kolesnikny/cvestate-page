@@ -76,8 +76,8 @@
     .menu__contacts {   
         display: none;
         grid-column: span 2;
-        background-color: var(--basic-white);
-        box-shadow: 0 50vh 0 50vh var(--spacoal-dark-10a);
+        background-color: var(--spacial-dark-50a);
+        box-shadow: 0 50vh 0 50vh var(--spacial-dark-50a);
         margin-right: 10px;
     }
 
@@ -195,13 +195,16 @@
         margin-right: 8px;
         grid-column: span 2;
         background-color: var(--basic-white);
-        box-shadow: 0 50vh 0 50vh var(--spacoal-dark-10a);
+       
         margin-right: 10px;
     }
 
     .header__menu--open {
         display: grid;
         grid-template-columns: 1fr;
+        
+        background-color: var(--spacial-dark-50a);
+        /*box-shadow: 0 50vh 0 50vh var(--spacial-dark-50a);*/
     }
 }
 

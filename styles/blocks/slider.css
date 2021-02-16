@@ -1,25 +1,24 @@
 .slider__content--image{
-    width: 80%;
+    
     height: auto;
 }
 
 @media (min-width: 100px) and (max-width: 319px){
     .slider__content--image{
-        width: 80%;
-        height: auto;
+        display: none;
     }
 }
 
 @media (min-width: 320px) and (max-width: 749px){
     .slider__content--image{
-        width: 80%;
+        width: 100%;
         height: auto;
     }
 }
 
 @media (min-width: 750px) and (max-width: 1200px){
     .slider__content--image{
-        width: 80%;
+        width: 100%;
         height: auto;
     }
 }
@@ -34,7 +33,7 @@
 
 @media (min-width: 1201px){
     .slider__content--image{
-        width: 80%;
+        width: 100%;
         height: auto;
     }
 }
